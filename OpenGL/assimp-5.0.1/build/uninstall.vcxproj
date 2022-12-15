@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{204328D2-2D3E-37FA-B976-CBB5C125D8A7}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>uninstall</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\OpenGL\assimp-5.0.1\build\include;F:\OpenGL\assimp-5.0.1\build;F:\OpenGL\assimp-5.0.1\include;F:\OpenGL\assimp-5.0.1\code;F:\OpenGL\assimp-5.0.1\.;F:\OpenGL\assimp-5.0.1\contrib\zlib;F:\OpenGL\assimp-5.0.1\build\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\OpenGL\assimp-5.0.1\build\include;F:\OpenGL\assimp-5.0.1\build;F:\OpenGL\assimp-5.0.1\include;F:\OpenGL\assimp-5.0.1\code;F:\OpenGL\assimp-5.0.1\.;F:\OpenGL\assimp-5.0.1\contrib\zlib;F:\OpenGL\assimp-5.0.1\build\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\OpenGL\assimp-5.0.1\build\include;F:\OpenGL\assimp-5.0.1\build;F:\OpenGL\assimp-5.0.1\include;F:\OpenGL\assimp-5.0.1\code;F:\OpenGL\assimp-5.0.1\.;F:\OpenGL\assimp-5.0.1\contrib\zlib;F:\OpenGL\assimp-5.0.1\build\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\OpenGL\assimp-5.0.1\build\include;F:\OpenGL\assimp-5.0.1\build;F:\OpenGL\assimp-5.0.1\include;F:\OpenGL\assimp-5.0.1\code;F:\OpenGL\assimp-5.0.1\.;F:\OpenGL\assimp-5.0.1\contrib\zlib;F:\OpenGL\assimp-5.0.1\build\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\OpenGL\assimp-5.0.1\build\CMakeFiles\e47fc20942bf5e4ae8a9fd99d06cc031\uninstall.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"F:\Program Files\CMake\bin\cmake.exe" -P F:/OpenGL/assimp-5.0.1/build/cmake_uninstall.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\OpenGL\assimp-5.0.1\build\CMakeFiles\uninstall</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"F:\Program Files\CMake\bin\cmake.exe" -P F:/OpenGL/assimp-5.0.1/build/cmake_uninstall.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\OpenGL\assimp-5.0.1\build\CMakeFiles\uninstall</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"F:\Program Files\CMake\bin\cmake.exe" -P F:/OpenGL/assimp-5.0.1/build/cmake_uninstall.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\OpenGL\assimp-5.0.1\build\CMakeFiles\uninstall</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"F:\Program Files\CMake\bin\cmake.exe" -P F:/OpenGL/assimp-5.0.1/build/cmake_uninstall.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\OpenGL\assimp-5.0.1\build\CMakeFiles\uninstall</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\OpenGL\assimp-5.0.1\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/OpenGL/assimp-5.0.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"F:\Program Files\CMake\bin\cmake.exe" -SF:/OpenGL/assimp-5.0.1 -BF:/OpenGL/assimp-5.0.1/build --check-stamp-file F:/OpenGL/assimp-5.0.1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\OpenGL\assimp-5.0.1\assimp-config-version.cmake.in;F:\OpenGL\assimp-5.0.1\assimp-config.cmake.in;F:\OpenGL\assimp-5.0.1\assimp.pc.in;F:\OpenGL\assimp-5.0.1\assimpTargets-debug.cmake.in;F:\OpenGL\assimp-5.0.1\assimpTargets-release.cmake.in;F:\OpenGL\assimp-5.0.1\assimpTargets.cmake.in;F:\OpenGL\assimp-5.0.1\build\CMakeFiles\3.20.2\CMakeCCompiler.cmake;F:\OpenGL\assimp-5.0.1\build\CMakeFiles\3.20.2\CMakeCXXCompiler.cmake;F:\OpenGL\assimp-5.0.1\build\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;F:\OpenGL\assimp-5.0.1\build\CMakeFiles\3.20.2\CMakeSystem.cmake;F:\OpenGL\assimp-5.0.1\cmake-modules\FindDirectX.cmake;F:\OpenGL\assimp-5.0.1\cmake-modules\FindPkgMacros.cmake;F:\OpenGL\assimp-5.0.1\cmake-modules\FindZLIB.cmake;F:\OpenGL\assimp-5.0.1\cmake-modules\PrecompiledHeader.cmake;F:\OpenGL\assimp-5.0.1\cmake-modules\cmake_uninstall.cmake.in;F:\OpenGL\assimp-5.0.1\cmake\HunterGate.cmake;F:\OpenGL\assimp-5.0.1\include\assimp\config.h.in;F:\OpenGL\assimp-5.0.1\revision.h.in;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CheckTypeSize.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\FindPkgConfig.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\OpenGL\assimp-5.0.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/OpenGL/assimp-5.0.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"F:\Program Files\CMake\bin\cmake.exe" -SF:/OpenGL/assimp-5.0.1 -BF:/OpenGL/assimp-5.0.1/build --check-stamp-file F:/OpenGL/assimp-5.0.1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\OpenGL\assimp-5.0.1\assimp-config-version.cmake.in;F:\OpenGL\assimp-5.0.1\assimp-config.cmake.in;F:\OpenGL\assimp-5.0.1\assimp.pc.in;F:\OpenGL\assimp-5.0.1\assimpTargets-debug.cmake.in;F:\OpenGL\assimp-5.0.1\assimpTargets-release.cmake.in;F:\OpenGL\assimp-5.0.1\assimpTargets.cmake.in;F:\OpenGL\assimp-5.0.1\build\CMakeFiles\3.20.2\CMakeCCompiler.cmake;F:\OpenGL\assimp-5.0.1\build\CMakeFiles\3.20.2\CMakeCXXCompiler.cmake;F:\OpenGL\assimp-5.0.1\build\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;F:\OpenGL\assimp-5.0.1\build\CMakeFiles\3.20.2\CMakeSystem.cmake;F:\OpenGL\assimp-5.0.1\cmake-modules\FindDirectX.cmake;F:\OpenGL\assimp-5.0.1\cmake-modules\FindPkgMacros.cmake;F:\OpenGL\assimp-5.0.1\cmake-modules\FindZLIB.cmake;F:\OpenGL\assimp-5.0.1\cmake-modules\PrecompiledHeader.cmake;F:\OpenGL\assimp-5.0.1\cmake-modules\cmake_uninstall.cmake.in;F:\OpenGL\assimp-5.0.1\cmake\HunterGate.cmake;F:\OpenGL\assimp-5.0.1\include\assimp\config.h.in;F:\OpenGL\assimp-5.0.1\revision.h.in;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CheckTypeSize.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\FindPkgConfig.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\OpenGL\assimp-5.0.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule F:/OpenGL/assimp-5.0.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"F:\Program Files\CMake\bin\cmake.exe" -SF:/OpenGL/assimp-5.0.1 -BF:/OpenGL/assimp-5.0.1/build --check-stamp-file F:/OpenGL/assimp-5.0.1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\OpenGL\assimp-5.0.1\assimp-config-version.cmake.in;F:\OpenGL\assimp-5.0.1\assimp-config.cmake.in;F:\OpenGL\assimp-5.0.1\assimp.pc.in;F:\OpenGL\assimp-5.0.1\assimpTargets-debug.cmake.in;F:\OpenGL\assimp-5.0.1\assimpTargets-release.cmake.in;F:\OpenGL\assimp-5.0.1\assimpTargets.cmake.in;F:\OpenGL\assimp-5.0.1\build\CMakeFiles\3.20.2\CMakeCCompiler.cmake;F:\OpenGL\assimp-5.0.1\build\CMakeFiles\3.20.2\CMakeCXXCompiler.cmake;F:\OpenGL\assimp-5.0.1\build\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;F:\OpenGL\assimp-5.0.1\build\CMakeFiles\3.20.2\CMakeSystem.cmake;F:\OpenGL\assimp-5.0.1\cmake-modules\FindDirectX.cmake;F:\OpenGL\assimp-5.0.1\cmake-modules\FindPkgMacros.cmake;F:\OpenGL\assimp-5.0.1\cmake-modules\FindZLIB.cmake;F:\OpenGL\assimp-5.0.1\cmake-modules\PrecompiledHeader.cmake;F:\OpenGL\assimp-5.0.1\cmake-modules\cmake_uninstall.cmake.in;F:\OpenGL\assimp-5.0.1\cmake\HunterGate.cmake;F:\OpenGL\assimp-5.0.1\include\assimp\config.h.in;F:\OpenGL\assimp-5.0.1\revision.h.in;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CheckTypeSize.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\FindPkgConfig.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\OpenGL\assimp-5.0.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule F:/OpenGL/assimp-5.0.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"F:\Program Files\CMake\bin\cmake.exe" -SF:/OpenGL/assimp-5.0.1 -BF:/OpenGL/assimp-5.0.1/build --check-stamp-file F:/OpenGL/assimp-5.0.1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\OpenGL\assimp-5.0.1\assimp-config-version.cmake.in;F:\OpenGL\assimp-5.0.1\assimp-config.cmake.in;F:\OpenGL\assimp-5.0.1\assimp.pc.in;F:\OpenGL\assimp-5.0.1\assimpTargets-debug.cmake.in;F:\OpenGL\assimp-5.0.1\assimpTargets-release.cmake.in;F:\OpenGL\assimp-5.0.1\assimpTargets.cmake.in;F:\OpenGL\assimp-5.0.1\build\CMakeFiles\3.20.2\CMakeCCompiler.cmake;F:\OpenGL\assimp-5.0.1\build\CMakeFiles\3.20.2\CMakeCXXCompiler.cmake;F:\OpenGL\assimp-5.0.1\build\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;F:\OpenGL\assimp-5.0.1\build\CMakeFiles\3.20.2\CMakeSystem.cmake;F:\OpenGL\assimp-5.0.1\cmake-modules\FindDirectX.cmake;F:\OpenGL\assimp-5.0.1\cmake-modules\FindPkgMacros.cmake;F:\OpenGL\assimp-5.0.1\cmake-modules\FindZLIB.cmake;F:\OpenGL\assimp-5.0.1\cmake-modules\PrecompiledHeader.cmake;F:\OpenGL\assimp-5.0.1\cmake-modules\cmake_uninstall.cmake.in;F:\OpenGL\assimp-5.0.1\cmake\HunterGate.cmake;F:\OpenGL\assimp-5.0.1\include\assimp\config.h.in;F:\OpenGL\assimp-5.0.1\revision.h.in;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\CheckTypeSize.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\FindPkgConfig.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;F:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\OpenGL\assimp-5.0.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\OpenGL\assimp-5.0.1\build\CMakeFiles\uninstall">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\OpenGL\assimp-5.0.1\build\ZERO_CHECK.vcxproj">
+      <Project>{FAEE2AC3-F346-3177-A974-3D778C98019F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
